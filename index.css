@@ -15,36 +15,39 @@ h1{
 
 .container{
     display: flex;
+    justify-content: space-between;
     position: fixed;
-    left: calc(50% - 481px);
-    top: calc(50% - 75px);
-    background-color: red;
-    width: 962px;
+    left: calc(50% - 545px);
+    top: calc(50% - 45px);
+    /* background-color: red; */
+    width: 1090px;
 }
 
 .contents{
     width: 30px;
-    flex:wrap;
+    justify-content: space-between;
     margin: 20px;
 }
 
 .button{
-    width: 30px;
+    width: 40px;
     height: auto;
     fill: #302F31;
 }
 
 
 .down-arrow{
-    height: 30px;
-    width: auto;
+    width: 32px;
+    height: auto;
 }
 
 
 .up-arrow{
-    height: 30px;
-    width: auto;
+    width: 32px;
+    height: auto;
 }
+
+
 
 
 .joystick{
@@ -55,6 +58,18 @@ margin: 10px;
 background: #D9D9D9;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
+
+.joystick-left{
+position: relative;
+left: 10px;
+top: 5px;
+}
+
+.joystick-right{
+    position: relative;
+    /* left: 10px; */
+    top: 5px;
+    }
 
 .joystick-shadow{
 width: 45px;
@@ -78,37 +93,37 @@ box-shadow: 9px 12px 10px -10px rgba(0, 0, 0, 0.79);
 }
 
 .small-rectangle-button{
-    height: 40px;
+    height: 50px;
     width: auto;
     margin-top: -5px;
 }
 
 .small-triangle-button{
-    height: 40px;
+    height: 50px;
     width: auto;
     margin-top: -5px;
 }
 
 .triangle-button{
-    height: 35px;
+    height: 45px;
     width: auto;
     margin-top: -5px;
 }
 
 .square-button{
-    height: 35px;
+    height: 45px;
     width: auto;
     margin-top: -5px;
 }
 
 .circle-button{
-    height: 35px;
+    height: 45px;
     width: auto;
     margin-top: -5px;
 }
 
 .ex-button{
-    height: 35px;
+    height: 45px;
     width: auto;
     margin-top: -5px;
 }
@@ -118,7 +133,7 @@ box-shadow: 9px 12px 10px -10px rgba(0, 0, 0, 0.79);
     transform: translate(-5px);
 }
 
-.joystick-right:hover{
+.joystick-middle-right:hover{
     transform: translate(5px);
 }
 
@@ -128,9 +143,14 @@ box-shadow: 9px 12px 10px -10px rgba(0, 0, 0, 0.79);
 
 .trigger{
     height: auto;
-    width: 50px;
+    width: 60px;
     margin-top: 0px;
     margin-left: -15px;
+}
+
+.right-trigger{
+    position:relative;
+    left: 10px;
 }
 
 

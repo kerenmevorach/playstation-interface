@@ -35,11 +35,12 @@ a:visited{
 
 .navigation{
     display: flex;
+    justify-content: space-between;
     position: fixed;
-    left: calc(50% - 307.5px);
+    left: calc(50% - 370px);
     bottom: 30px;
     /* background-color: red; */
-    width: 615px;
+    width: 750px;
 }
 
 .contents{
@@ -97,6 +98,36 @@ margin-top: -25px;
 box-shadow: 9px 12px 10px -10px rgba(0, 0, 0, 0.79);
 }
 
+.joystick-left{
+    position:relative;
+    top:-2px;
+}
+
+.joystick-right{
+    position:relative;
+    top:-1px;
+}
+
+.square{
+    position: relative;
+    top:2px;
+}
+
+.triangle{
+    position: relative;
+    top:2px;
+}
+
+.ex{
+    position: relative;
+    top:2px;
+}
+
+.circle{
+    position: relative;
+    top:2px;
+}
+
 .small-rectangle-button{
     height: calc(40px / 1.5);
     width: auto;
@@ -138,12 +169,8 @@ box-shadow: 9px 12px 10px -10px rgba(0, 0, 0, 0.79);
     transform: translate(-5px);
 }
 
-.joystick-right:hover{
+.joystick-middle-right:hover{
     transform: translate(5px);
-}
-
-.jostick-margin{
-    margin-left: 20px;
 }
 
 
@@ -191,13 +218,14 @@ box-shadow: 9px 12px 10px -10px rgba(0, 0, 0, 0.79);
 
 .question-container{
     position: absolute;
-    width: 1000px;
-    height: 400px;
-    left: calc(50% - 500px);
-    top: calc(50% - 200px);
+    width: 900px;
+    height: 350px;
+    left: calc(50% - 450px);
+    top: calc(50% - 175px);
     background: #302F31;
     border-radius: 65px;
     overflow: auto;
+    /* padding:20px; */
 }
 
 h1{
@@ -209,8 +237,8 @@ h1{
 
 h2{
     color: white;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 110px;
+    padding-right: 110px;
     padding-top: 30px;
     font-weight: normal;
     font-size: 25px;
@@ -221,8 +249,8 @@ h2{
 
 p{
     color: white;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 110px;
+    padding-right: 110px;
     /* max-width: 80ch;
     margin-left: auto;
     margin-right: auto; */
@@ -268,14 +296,20 @@ p{
 }
 
 .left-trigger{
-    margin-right: 10px;
+    position: relative;
+    right: 10px;
 }
 
 .right-trigger{
-    margin-top: -10px;
+    position: relative;
+    top: -1px;
 }
-
 
 .trigger:hover{
     fill: rgb(101, 101, 101);
+}
+
+.about{
+    padding-left: 90px;
+    padding-right: 90px;
 }
