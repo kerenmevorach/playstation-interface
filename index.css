@@ -5,9 +5,10 @@ body{
 .container{
     display: flex;
     position: fixed;
-    left: 30%;
+    left: calc(50% - 422.5px);
     top: calc(50% - 75px);
     /* background-color: red; */
+    width: 845px;
 }
 
 .contents{
@@ -34,9 +35,6 @@ body{
     width: auto;
 }
 
-.up-arrow:hover{
-    fill: rgb(101, 101, 101);
-}
 
 .joystick{
 width: 45px;
@@ -82,8 +80,7 @@ box-shadow: 9px 12px 10px -10px rgba(0, 0, 0, 0.79);
 
 
 .right-arrow:hover{
-    fill: rgb(101, 101, 101);
-    
+    fill: rgb(101, 101, 101);   
 }
 
 
@@ -92,5 +89,34 @@ box-shadow: 9px 12px 10px -10px rgba(0, 0, 0, 0.79);
 }
 
 .down-arrow:hover{
+    fill: rgb(101, 101, 101);
+}
+
+.up-arrow:hover{
+    fill: rgb(101, 101, 101);
+}
+
+
+.square-button:hover{
+    fill: rgb(101, 101, 101);
+}
+
+.circle-button:hover{
+    fill: rgb(101, 101, 101);
+}
+
+.ex-button:hover{
+    fill: rgb(101, 101, 101);
+}
+
+.triangle-button:hover{
+    fill: rgb(101, 101, 101);
+}
+
+.small-rectangle-button:hover{
+    fill: rgb(101, 101, 101);
+}
+
+.small-triangle-button:hover{
     fill: rgb(101, 101, 101);
 }
