@@ -5,48 +5,70 @@ body{
     font-family: 'Space Mono', monospace;
 }
 
-h1{
-    font-size: 25px;
-    margin: 20px;
+.back-button{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 57px;
+    top: 40px;
+    background: #302F31;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Space Mono', monospace;
 }
 
-.container{
+.back-button:hover{
+    background-color: rgb(101, 101, 101);
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.navigation{
     display: flex;
     position: fixed;
-    left: calc(50% - 422.5px);
-    top: calc(50% - 75px);
+    left: calc(50% - 307.5px);
+    top: 30px;
     /* background-color: red; */
-    width: 845px;
+    width: 615px;
 }
 
 .contents{
-    width: 30px;
+    width: calc(30px / 1.5);
     flex:wrap;
-    margin: 20px;
+    margin: 15px;
 }
 
 .button{
-    width: 30px;
+    width: calc(30px / 1.5);
     height: auto;
     fill: #302F31;
 }
 
 
 .down-arrow{
-    height: 30px;
+    height: calc(30px / 1.5);
     width: auto;
 }
 
 
 .up-arrow{
-    height: 30px;
+    height: calc(30px / 1.5);
     width: auto;
 }
 
 
 .joystick{
-width: 45px;
-height: 45px;
+width: calc(45px / 1.5);
+height: calc(45px / 1.5);
 border-radius: 50%;
 margin: 10px;
 background: #D9D9D9;
@@ -54,8 +76,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .joystick-shadow{
-width: 45px;
-height: 45px;
+width: calc(45px / 1.5);
+height: calc(45px / 1.5);
 border-radius: 50%;
 margin: 0px;
 background: #D9D9D9;
@@ -64,48 +86,48 @@ box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.2);
 
 .joystick-middle{
 box-sizing: border-box;
-width: 30px;
-height: 30px;
+width: calc(30px / 1.5);
+height: calc(30px / 1.5);
 border-radius: 50%;
 background: #171717;
 border: 3px solid #000000;
 margin: auto;
-margin-top: -38px;
+margin-top: -25px;
 box-shadow: 9px 12px 10px -10px rgba(0, 0, 0, 0.79);
 }
 
 .small-rectangle-button{
-    height: 40px;
+    height: calc(40px / 1.5);
     width: auto;
     margin-top: -5px;
 }
 
 .small-triangle-button{
-    height: 40px;
+    height: calc(40px / 1.5);
     width: auto;
     margin-top: -5px;
 }
 
 .triangle-button{
-    height: 35px;
+    height: calc(35px / 1.5);
     width: auto;
     margin-top: -5px;
 }
 
 .square-button{
-    height: 35px;
+    height: calc(35px / 1.5);
     width: auto;
     margin-top: -5px;
 }
 
 .circle-button{
-    height: 35px;
+    height: calc(35px / 1.5);
     width: auto;
     margin-top: -5px;
 }
 
 .ex-button{
-    height: 35px;
+    height: calc(35px / 1.5);
     width: auto;
     margin-top: -5px;
 }
@@ -164,4 +186,43 @@ box-shadow: 9px 12px 10px -10px rgba(0, 0, 0, 0.79);
 
 .small-triangle-button:hover{
     fill: rgb(101, 101, 101);
+}
+
+.question-container{
+    position: absolute;
+    width: 1000px;
+    height: 400px;
+    left: calc(50% - 500px);
+    top: 200px;
+    background: #302F31;
+    border-radius: 65px;
+    overflow: auto;
+}
+
+h2{
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    font-weight: normal;
+    font-size: 25px;
+    /* max-width: 60ch; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+p{
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* max-width: 80ch;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.back-type{
+    position: fixed;
+    margin-left: 30px;
+    top: 31px;
+    padding:0px;
 }
