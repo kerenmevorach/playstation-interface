@@ -16,10 +16,10 @@ h1{
 .container{
     display: flex;
     position: fixed;
-    left: calc(50% - 422.5px);
+    left: calc(50% - 481px);
     top: calc(50% - 75px);
-    /* background-color: red; */
-    width: 845px;
+    background-color: red;
+    width: 962px;
 }
 
 .contents{
@@ -126,6 +126,51 @@ box-shadow: 9px 12px 10px -10px rgba(0, 0, 0, 0.79);
     margin-left: 20px;
 }
 
+.trigger{
+    height: auto;
+    width: 50px;
+    margin-top: 0px;
+    margin-left: -15px;
+}
+
+
+.trigger:hover{
+    fill: rgb(101, 101, 101);
+}
+
+
+.about-button{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    right: 57px;
+    top: 40px;
+    background: #302F31;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.back-type{
+    position: relative;
+    margin-left: 26px;
+    top: -8px;
+    padding:0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.about-button:hover{
+    background-color: rgb(101, 101, 101);
+    cursor: pointer;
+}
 
 .right-arrow:hover{
     fill: rgb(101, 101, 101);   

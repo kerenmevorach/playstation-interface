@@ -229,8 +229,53 @@ p{
 }
 
 .back-type{
-    position: fixed;
+    position: relative;
     margin-left: 30px;
-    top: 31px;
+    top: -8px;
     padding:0px;
+}
+
+
+.about-type{
+    position: relative;
+    margin-left: 26px;
+    top: -8px;
+    padding:0px;
+}
+
+.about-button{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    right: 57px;
+    top: 40px;
+    background: #302F31;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.about-button:hover{
+    background-color: rgb(101, 101, 101);
+    cursor: pointer;
+}
+
+.trigger{
+    height: auto;
+    width: calc(50px / 1.5);
+    margin-top: 0px;
+    /* margin-left: -15px; */
+}
+
+.left-trigger{
+    margin-right: 10px;
+}
+
+.right-trigger{
+    margin-top: -10px;
+}
+
+
+.trigger:hover{
+    fill: rgb(101, 101, 101);
 }
