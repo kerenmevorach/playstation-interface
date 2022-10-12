@@ -3,11 +3,14 @@
 body{
     background-color: #E8E8E8;
     font-family: 'Space Mono', monospace;
+    color: #302F31;
 }
 
 h1{
-    font-size: 25px;
+    font-size: 30px;
     margin: 20px;
+    text-align: center;
+    margin-top: 37px;
 }
 
 .container{
